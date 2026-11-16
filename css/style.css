@@ -1,0 +1,68 @@
+/*
+PALLETTE:
+Cream
+Pink
+Brown
+Red
+*/
+
+body {
+    background-color: #fffaf3;
+    color: #51270f;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #eee4d7;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation a {
+    color: #51270f;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #a64b3c;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #eee4d7;
+    padding: 60px 20px
+}
+
+.button {
+    display: inline-block;
+    background-color: #a64b3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #51270f;
+}
+
+.footer {
+    background-color: #51270f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .navigation {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
